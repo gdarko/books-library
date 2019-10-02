@@ -9,9 +9,9 @@
 3. The plugin provides shortcode for listing books eg `[books_library posts_per_page=6 genre='fantasy']`
 4. The plugin provides metabox for editing metadata in the `Book` posts editor (`Author` and `Number of pages`)
 5. The plugin makes use of enqueueuing system to include javascript and css files
-5. The plugin makes use of the l81n internationalization standard
-6. The plugin makes use of actions and filters
-7. The plugin makes use of `readme.txt` that is required to publish plugin on WordPress.org/plugins directory
+6. The plugin makes use of the l81n internationalization standard
+7. The plugin makes use of actions and filters
+8. The plugin makes use of `readme.txt` that is required to publish plugin on WordPress.org/plugins directory
 
 
 ### Files
@@ -24,6 +24,7 @@
 6. `shortcodes.php` provides the `[books_library posts_per_page=6 genre='fantasy']` shortcode
 7. `scripts.php` makes use of the enqueueing system of WordPress
 8. `languages/` stores the translations
+9. `readme.txt` is required if you want to publish the plugin to WordPress plugin repository
 
 
 ### Contributions
