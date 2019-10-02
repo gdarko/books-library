@@ -1,8 +1,18 @@
-# Books Library
+=== Books Library ===
+Contributors: DarkoG
+Tags: books-library, library, books, genres
+Requires at least: 4.6.0
+Stable Tag: 1.0.0
+Requires PHP: 5.5.0
+Tested up to: 5.2.3
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-**The plugin was created for demonstration purposes for my presentation at [WordCamp Skopje 2019](https://2019.skopje.wordcamp.org)**
+The plugin was created for demonstration purposes for my presentation at [WordCamp Skopje 2019](https://2019.skopje.wordcamp.org)
 
-### How it works
+== Description ==
+
+=== How it works ===
 
 1. The plugin registers the `Book` shortcode
 2. The plugin registers the `Genre` taxonomy
@@ -14,7 +24,7 @@
 7. The plugin makes use of `readme.txt` that is required to publish plugin on WordPress.org/plugins directory
 
 
-### Files
+=== Files ===
 
 1. `books-library.php` declares the plugin and everything starts from there.
 2. `post-types` registers the `Book` post type
@@ -26,32 +36,32 @@
 8. `languages/` stores the translations
 
 
-### Contributions
+== Installation ==
 
-Feel free to open pull requests if you want to contribute
+= Plugin Installation =
 
+* Download the plugin from the WordPress.org repository
+* Go to your WordPress Dashboard, navigate to Plugins > Add Plugin and upload the zip file you downloaded.
 
-### License
+= If you have any question feel free to get in touch =
 
-The plugin is licensed under GPL v2
+== Frequently Asked Questions ==
 
-```
+= Does the plugin support goodreads integration?  =
 
-Copyright (C) 2019 Darko Gjorgjijoski (https://darkog.com)
+No at this time.
 
-This file is part of Books Library
+= Does the plugin support the latest PHP?  =
 
-Books Libraryis free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-(at your option) any later version.
+Yes, sure and we recommend it.
 
-Books Library is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+== Screenshots ==
 
-You should have received a copy of the GNU General Public License
-along with Books Library. If not, see <https://www.gnu.org/licenses/>.
+1. Screenshot 1 (in the assets folder of the SVN repository)
+2. Screenshot 2 (in the assets folder of the SVN repository)
+3. Screenshot 3 (in the assets folder of the SVN repository)
 
-```
+== Changelog ==
+
+= Version 1.0.0 =
+* Initial version
