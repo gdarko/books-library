@@ -1,0 +1,16 @@
+p.bl-book-info span:last-child {
+    border-right: 0;
+}
+
+p.bl-book-info span {
+    border-right: 1px solid #7d7d7d;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bl-book-info {
+    background: #f0f0f0;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
