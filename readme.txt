@@ -14,9 +14,9 @@ The plugin was created for demonstration purposes for my presentation at [WordCa
 
 === How it works ===
 
-1. The plugin registers the `Book` shortcode
+1. The plugin registers the `Book` post type
 2. The plugin registers the `Genre` taxonomy
-3. The plugin provides shortcode for listing books eg `[books_library posts_per_page=6 genre='fantasy']`
+3. The plugin provides shortcodes for listing books eg `[books_library number=6]` and `[books_library_extended number=6 genre=fantasy]`
 4. The plugin provides metabox for editing metadata in the `Book` posts editor (`Author` and `Number of pages`)
 5. The plugin makes use of enqueueuing system to include javascript and css files
 5. The plugin makes use of the l81n internationalization standard
@@ -31,7 +31,7 @@ The plugin was created for demonstration purposes for my presentation at [WordCa
 3. `taxonomies.php` registers the `Genre` taxonomy
 4. `metaboxes.php` defines the metabox with additional book information (Author and Number of pages) using the [CMB2 Framework](https://github.com/CMB2/CMB2)
 5. `hooks.php` defines the hooks (first one: login notification and second one: modification of the book content to add the additional information in the end of each `Book` post)
-6. `shortcodes.php` provides the `[books_library number=6]` and `[books_library_extended number=6 genre=fantasy]` shortcodes
+6. `shortcodes.php` provides the `[books_library ...]` and `[books_library_extended ...]` shortcodes
 7. `scripts.php` makes use of the enqueueing system of WordPress
 8. `languages/` stores the translations
 9. `readme.txt` is required if you want to publish the plugin to WordPress plugin repository
