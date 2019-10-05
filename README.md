@@ -2,7 +2,7 @@
 
 **The plugin was created for demonstration purposes for my presentation at [WordCamp Skopje 2019](https://2019.skopje.wordcamp.org)**
 
-=== How it works ===
+### How it works
 
 1. The plugin registers the `Book` post type
 2. The plugin registers the `Genre` taxonomy
@@ -14,7 +14,7 @@
 7. The plugin makes use of `readme.txt` that is required to publish plugin on WordPress.org/plugins directory
 
 
-=== Files ===
+### Files
 
 1. `books-library.php` declares the plugin and everything starts from there.
 2. `post-types.php` registers the `Book` post type
